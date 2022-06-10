@@ -14,7 +14,7 @@ func sortMapValues(input map[int]string) (result []string) {
 		}
 	}
     for _, k := range keys {
-		values = append(values, basket[k])
+		values = append(values, input[k])
 	}
 
 	return values
